@@ -36,3 +36,23 @@ changePassword
 7.)If the reply is "YES" then it should display the menu again.
 
 8.)If the answer is "NO" then it should exit out and display the login page.
+
+B. Add another class Account in the application with the following attributes
+and methods
+a. Attributes
+• accountId
+• description
+• minimumBalance
+b. methods
+• display()
+
+C. Create two subclasses of Account class
+a. Current
+• Set minimumBalance=$0
+• Override display method to show details of all the attributes
+in the account
+
+b. Saving
+• Set minimumBalance=$500
+• Override display method to show details of all the attributes
+in the account
