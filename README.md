@@ -1,18 +1,38 @@
-## Getting Started
+Assignment 3
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A.)Create an simple java applications with two classes
 
-## Folder Structure
+1.Customer(this class contain information about customers)
 
-The workspace contains two folders by default, where:
+a.)The attribute are as follows.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Name-String
+Username-String
+Password-String
+Age-int
+SSN-String
+Address-String(just city name)
+Email-String
+Phone-long
+Balance-float
+b.)Methods
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+login
+deposit
+withdrawal
+checkBalance
+editProfile
+changePassword
+2.)Bank(This will be the main class,which when executed shows following results)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3.)On the start of application login() method of Customer class should be called.
 
-## Dependency Management
+4.)After logging in,customer should select one of the following option to perform operation.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+5.)On selection of each opeeration,respecting methods in customer class should be called.
+
+6.)At the end of each operation the customer should be prompted,do you want to continue?
+
+7.)If the reply is "YES" then it should display the menu again.
+
+8.)If the answer is "NO" then it should exit out and display the login page.
