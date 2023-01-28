@@ -1,7 +1,7 @@
 public class Bank {
     public static void main(String[] args) {
         Customer c = new Customer();
-        c.login(c);
+        c.login();
     }
 }
 
